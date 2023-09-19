@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  .site-name{
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    height:10vh;
+  }
+  /* site heading */
+  .rotate{
+    display: inline-block;
+    transform:rotate(270deg);
+    font-size:1rem
+  }
+  .siren{
+    display:inline-block;
+    font-size:2rem;
+}
+/* navbar */
+    .nav{
+       height:10vh;
+       width:100vw;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+     }
+    .a{
+      font-size:3vw;
+      color:black;
+      font-weight: bold;
+      text-decoration: none;
+    
+    }
+    
+    .a:hover{
+      color:rgb(238,174,202);
+      border-radius: 5px;
+    } 
+    /* nav end */
+    /* hamburger */
+    .menu{
+        display:flex;
+        position: absolute;
+        top:0.75rem;
+        right:0.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+        width:2.25rem;
+        height:2rem;
+    }
+    .menu span{
+        height: 0.4rem;
+        width:100%;
+        background-color: black;
+        border-radius: 0.2rem;
+    }
+    @media (max-width:480px){
+        .menu{
+            display:flex;
+            flex-direction: column;
+            align-items: start;
+        }
+        .nav{
+            display: none;
+            flex-direction:column;
+            width:100%;
+            margin-bottom: 0.2rem
+        }
+        .a{
+            width: 100%;
+            text-align: center;
+
+        }
+    }

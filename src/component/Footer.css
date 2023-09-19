@@ -1,0 +1,31 @@
+.footer{
+    background-color:rgb(244, 244, 244);
+    color:grey;
+    width:100%;
+    height:200px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .section{
+    width:200px;
+    border-right: 2px;
+    border-style: solid;
+  }
+  .flink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+  }
+  .flinks{
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(125, 118, 118);
+  }
+  .flinks:hover{
+    color:white;
+    background-color: black;
+  }
+  

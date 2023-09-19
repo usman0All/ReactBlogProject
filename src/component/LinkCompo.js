@@ -1,15 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "./LinkCompo.css"
 function LinkCompo() {
   return (
   <>
-    <div className='link-cont'>
-        <Link to="/" className='Link'>Home</Link>
-        <Link to="/bollywood" className='Link'>Bollywood</Link>
-        <Link to="/technology" className='Link'>Technology</Link>
-        <Link to="/hollywood" className='Link'>Hollywood</Link>
-        <Link to="/fitness" className='Link'>Fitness</Link>
-        <Link to="/food" className="Link">Food</Link>
+
+ <div className='site-name'>
+       <h2 className='site-text'><div className='rotate'>The</div><div className='siren'>Siren</div></h2>
+  </div> 
+ 
+    <div className='nav'>
+       <div className='menu'>
+         <span></span>
+        <span></span>
+        <span></span>
+     </div>
+       <Link to="/" className='a'>Home</Link>
+        <Link to="/bollywood" className='a'>Bollywood</Link>
+        <Link to="/technology" className='a'>Technology</Link>
+        <Link to="/hollywood" className='a'>Hollywood</Link>
+        <Link to="/fitness" className='a'>Fitness</Link>
+        <Link to="/food" className="a">Food</Link>
         </div>
    
     </>

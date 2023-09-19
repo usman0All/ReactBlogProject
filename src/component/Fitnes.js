@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 //import { useEffect } from 'react';
 import { Store } from './DataStore'
+import Footer from './Footer';
 function Fitnes() {
   const [DData] = useContext(Store);
   return (
@@ -96,6 +97,9 @@ function Fitnes() {
 
       </div>
       {/* main end */}
+       {/* footer section  */}
+
+       <Footer/>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { Store } from './DataStore';
+import Footer from './Footer';
 function Home() {
   const[DData]=useContext(Store);
    // console.log("holly",DData)
@@ -70,6 +71,8 @@ function Home() {
           
           
         </div>
+        {/* footer */}
+        <Footer/>
 
       </>
   )

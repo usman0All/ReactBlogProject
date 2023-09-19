@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import { NavLink } from 'react-router-dom';
-//import { useEffect } from 'react';
 import { Store } from './DataStore'
+import { NavLink } from 'react-router-dom';
+import Footer from './Footer';
 function Bollywood() {
   const [DData] = useContext(Store);
   return (
@@ -18,7 +18,8 @@ function Bollywood() {
             return (
               <>
                 <div key={index} className='container1'>
-                <NavLink to={'/Dcontent/${item.id'}>
+                {/* dd */}
+                <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
 
                   <div className='heading1'>{data.heading.slice(0, 50)}</div>
                   <div className='cont-img1'>
@@ -27,7 +28,8 @@ function Bollywood() {
                   <div className='des1'>{data.description.slice(0, 70)}...</div>
                  
                   <div className='date1'><span style={{ fontWeight: "bold" }}>Post</span>August 21,2009</div>
-                  </NavLink>
+                {/* dd */}
+                </NavLink>
                 </div>
 
               </>
@@ -49,10 +51,10 @@ function Bollywood() {
                 <>
                   <div className='container2'>
                     <div className='cont-img2'>
-                      <img className="img2" src={data.image} alt='Not found' />
+                      <img className="img2" src={data.image} alt='Not found' /> 
                     </div>
                     <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading}<div className='number1'>{index+1}</div></div>
-                    {/* <div className='des2'>{data.description.slice(0, 3)}</div> */}
+                    <div className='des2'>{data.description.slice(0, 3)}</div>
                   </div>
                   </>
               )
@@ -101,6 +103,10 @@ function Bollywood() {
 
       </div>
       {/* main end */}
+
+      {/* footer section  */}
+
+      <Footer/>
     </>
   )
 }

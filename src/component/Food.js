@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 //import { useEffect } from 'react';
 import { Store } from './DataStore'
+import Footer from './Footer';
 function Food() {
   const [DData] = useContext(Store);
   return (
@@ -99,6 +100,9 @@ function Food() {
 
       </div>
       {/* main end */}
+       {/* footer section  */}
+
+       <Footer/>
     </>
   )
 }

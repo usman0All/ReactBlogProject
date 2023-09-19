@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 //import { useEffect } from 'react';
 import { Store } from './DataStore'
+import Footer from './Footer';
 function Holly() {
   const [DData] = useContext(Store);
   return (
@@ -97,6 +98,9 @@ function Holly() {
 
       </div>
       {/* main end */}
+       {/* footer section  */}
+
+       <Footer/>
     </>
   )
 }
