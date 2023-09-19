@@ -7,6 +7,7 @@ import i4 from "../image/w.png"
 import i5 from "../image//smartphone-call.png"
 import i6 from "../image//social.png"
 import i7 from "../image/home.png";
+import i8 from "../image/paper-plane.png"
 import { Link } from 'react-router-dom'
 
 function Footer() {
@@ -14,29 +15,36 @@ function Footer() {
     <>
       <footer className='footer'>
 
-        {/* ///////////// */}
+        {/* //////s1/////// */}
         <div className='section'>
-        <div className='homeicon'>
-        <div><Link to="/" className='soclinks'><img src={i7} alt='Not found' className='icon' style={{ width: 40, height: 40 }} /></Link></div>
-        <h3>The Siren</h3>
-        </div>
-       <div className='flink'>
-            <h5>Welcome to our Green Kitchen. Here we cook and eat healthy and
+          <div className='homeicon'>
+            <div><Link to="/" className='soclinks'><img src={i7} alt='Not found' className='icon' style={{ width: 40, height: 40 }} /></Link></div>
+            <h3>The Siren</h3>
+          </div>
+          <div className='flink'>
+            <h5>Welcome to our The Siren Blog. Here we talk about education, Ai,Technology and eat healthy and
               simple vegetarian food with natural ingredients,
               whole grains, good fats, fruit and vegetables</h5>
           </div>
+          <div className='homewrite'>
+          <div><Link to="/" className='soclinks'><img src={i8} alt='Not found' className='icon' style={{ width:20, height:20 }} /></Link></div>
+            <h5>sirenblog@gmail.com</h5>
+          </div>
+
         </div>
+        {/* s2 */}
 
         <div className='section'>
           <h3>Activity</h3>
           <div className='aflink'>
-            <div>Influencer</div>
-            <div>Co-branding</div>
-            <div>Honar</div>
-            <div>Giveway</div>
+            <div className='flinks'>Influencer</div>
+            <div className='flinks'>Co-branding</div>
+            <div className='flinks'>Honar</div>
+            <div className='flinks'>Giveway</div>
           </div>
         </div>
-        {/* /////// */}
+
+        {/* ///s3//// */}
 
         <div className='section'>
           <h3 >Follow Us</h3>
@@ -51,12 +59,12 @@ function Footer() {
             <div>19+7334756789</div>
           </div>
           <div className="email">
-            <div><img src={i6} alt='Not found' className='icon' style={{ width:30, height: 30 }} /></div>
+            <div><img src={i6} alt='Not found' className='icon' style={{ width: 30, height: 30 }} /></div>
             <div>usman@gmail.com</div>
           </div>
 
         </div>
-        {/* //////// */}
+        {/* /////s4/// */}
 
         <div className='section'>
           <h3>Quick Links</h3>
