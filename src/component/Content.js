@@ -20,16 +20,16 @@ function Content() {
           <h1 className='dhead'>{data.heading.slice(0,50)}</h1>
           <div className='user' >
             
-            <img src={image} className='userimg'/>
+            <img src={image} alt='Not found' className='userimg'/>
             <div className='userid'>
             <span>Mohd Usman</span>
              <span>jan-25/2019</span>
             </div>
             <div className='smedia'>
-               <img src={i1} className='icon'/>
-               <img src={i2} className='icon'/>
-               <img src={i3} className='icon'/>
-               <img src={i4} className='icon'/>
+               <img src={i1} alt='Not found' className='icon'/>
+               <img src={i2}  alt='Not found' className='icon'/>
+               <img src={i3}   alt='Not found' className='icon'/>
+               <img src={i4}  alt='Not found' className='icon'/>
              </div>
           </div>
           <div className='Dimgbox'>

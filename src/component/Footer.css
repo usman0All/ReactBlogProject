@@ -1,5 +1,5 @@
 .footer{
-    background-color:rgb(244, 244, 244);
+    background-color:rgb(201, 190, 190);
     color:grey;
     width:100%;
     height:200px;
@@ -8,15 +8,13 @@
   }
   .section{
     width:200px;
-    border-right: 2px;
-    border-style: solid;
+    /* border: 5px solid white; */
   }
   .flink {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     flex-wrap: wrap;
   }
   .flinks{
@@ -28,4 +26,56 @@
     color:white;
     background-color: black;
   }
+  /* footer social follw us */
+  .soclink{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .soclinks{
+    text-decoration: none;
+  }
+  .soclinks:hover{
+   background-color: black;
+    border:2px solid gray;
+    border-radius: 50%;
+
+  }
+  /* activity */
+  .aflink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+
+  }
+  .phone{
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .email{
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /* h3{
+    text-align: center;
+    margin-top: 5px;
+
+  } */
+  .homeicon{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start
+  }
+  
   
