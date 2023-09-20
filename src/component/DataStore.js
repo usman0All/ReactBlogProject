@@ -14,7 +14,7 @@ function DataStore(props) {
         id:1,
         heading:'This Janhvi Kapoor, Varun Dhawan Film Is Bawaal in Hindi & Disaster In English',
         image:"https://feeds.abplive.com/onecms/images/uploaded-images/2023/07/20/bb698c57627303f6566be9df102b09d01689845290204396_original.jpg?impolicy=abp_cdn&imwidth=720",
-        description:"his Varun Dhawan, Janhvi Kapoor film directed by Nitesh Tiwari mixes space and time; from WWII backdrop with a modern day middle-class family setup and naturally the result is - 'Bawaal'.",
+        description:"his Varun Dhawan, Janhvi Kapoor film directed by Nitesh Tiwari mixes space and time; from WWII backdrop with a modern day middle-class family setup and naturally the result is - 'Bawaal': is a captivating Bollywood movie that strikes a perfect balance between emotions, laughter, and family values. With an engaging storyline and praise-worthy performances by the main cast, Varun Dhawan and Janvi Kapoor, the film manages to connect deeply with its audience, especially parents who grapple with the challenges of guiding their grown-up kids through life.",
         cat:'bollywood',
         
       },

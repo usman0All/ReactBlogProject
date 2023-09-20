@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 //import { useEffect } from 'react';
 import { Store } from './DataStore'
 import Footer from './Footer';
+import { NavLink } from 'react-router-dom';
 function Fitnes() {
   const [DData] = useContext(Store);
   return (
@@ -74,12 +75,14 @@ function Fitnes() {
             return (
               <div key={index}>
                 <div className='container3'>
+                <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
 
                   <div className='heading3'>{data.heading.slice(0,30)} <div className='number2'>{index+2}</div></div>
                   <div className='cont-img3'>
                     <img className="img3" src={data.image} alt='Not found' />
                   </div>
                   {/* <div className='des3'>{data.description.slice(0, 3)}</div>  */}
+                  </NavLink>
                 </div>
 
               </div>

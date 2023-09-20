@@ -4,7 +4,8 @@
     box-sizing: border-box;
   }
   .site-name{
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    background-color:whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,31 +22,47 @@
     display:inline-block;
     font-size:2rem;
 }
-/* navbar */
+/*///////////////////// navbar////////////////////////////////////////// */
     .nav{
-       height:10vh;
+       /* height:10vh; */
        width:100vw;
        display: flex;
        align-items: center;
        justify-content: space-evenly;
        flex-wrap: wrap;
+       /* background-color: blue; */
+       background-color:whitesmoke;
      }
-    .a{
-      font-size:3vw;
-      color:black;
-      font-weight: bold;
-      text-decoration: none;
+    /* .title{
+     
+    } */
     
-    }
-    
-    .a:hover{
+    .title:hover{
       color:rgb(238,174,202);
       border-radius: 5px;
     } 
+    ul{
+      display: flex;
+    }
+    ul li{
+      list-style-type:none;
+      /* border:1px solid black;  */
+    }
+    .nav ul li a{
+      display: block;
+      font-size:3vw;
+      color:black;
+      font-weight: bold;
+      padding: 0.5rem;
+      /* margin: 0 0.3rem; */
+      text-decoration: none;
+    
+
+    }
     /* nav end */
     /* hamburger */
-    .menu{
-        display:flex;
+   .nav .menu{
+        display:none;
         position: absolute;
         top:0.75rem;
         right:0.5rem;
@@ -61,20 +78,35 @@
         border-radius: 0.2rem;
     }
     @media (max-width:480px){
-        .menu{
+      .nav .menu{
             display:flex;
             flex-direction: column;
             align-items: start;
         }
         .nav{
-            display: none;
+            display:colomn;
+            align-items: start;
             flex-direction:column;
             width:100%;
+            /* height:30vh; */
             margin-bottom: 0.2rem
         }
-        .a{
+        .nav ul{
+          display: none;
+          flex-direction: column;
             width: 100%;
+            height:  100%;;
+            margin-bottom: 0.25rem;
             text-align: center;
-
+          }
+          .nav ul.Open{
+            display: flex;
+          }
+        .nav ul li{
+          width:100%;
+          text-align: center;
+        }
+        .nav ul li a{
+          margin: 0.2rem 0.5rem
         }
     }
