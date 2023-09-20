@@ -153,3 +153,16 @@
 .likeshare{
 
 }
+
+@media screen and (max-width:480px) {
+    .dynamicData2{
+        /* border: 10px solid blue; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-between;
+        /* z-index:3; */
+    } 
+
+    
+}

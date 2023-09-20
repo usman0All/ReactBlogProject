@@ -14,10 +14,11 @@ function Fitnes() {
         <div className='parent1'>
           <h1>Fitness</h1>
           <hr className='hr1' />
-          {DData.filter((item) => item.id>=40&&item.id<=46).map((data) => {
+          {DData.filter((item) => item.id>=40&&item.id<=48).map((data,index) => {
             return (
               <>
-                <div className='container1'>
+              <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
+                <div className='container1' key={index}>
 
                   <div className='heading1'>{data.heading.slice(0, 50)}</div>
                   <div className='cont-img1'>
@@ -26,6 +27,7 @@ function Fitnes() {
                   <div className='des1'>{data.description.slice(0, 70)}...</div>
                   <div className='date1'><span style={{ fontWeight: "bold" }}>Post</span>August 21,2009</div>
                 </div>
+              </NavLink>
 
               </>
             )
@@ -44,13 +46,15 @@ function Fitnes() {
             {DData.filter((item) => item.id === 47).map((data,index) => {
               return (
                 <>
+                <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
                   <div className='container2' key={index}>
                     <div className='cont-img2'>
-                      <img className="img2" src={data.image} alt='Not found' />
+                      <img className="leftImg" src={data.image} alt='Not found' />
                     </div>
-                    <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading}<div className='number1'>{index+1}</div></div>
+                    <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading}</div><div className='number1'>{index+1}</div>
                     {/* <div className='des2'>{data.description.slice(0, 3)}</div> */}
                   </div>
+                </NavLink>
                   </>
               )
 
@@ -71,19 +75,21 @@ function Fitnes() {
 
 
 
-          {DData.filter((item) => item.id >= 48 && item.id <= 53).map((data,index) => {
+          {DData.filter((item) => item.id >= 50 && item.id <= 53).map((data,index) => {
             return (
               <div key={index}>
+              <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
                 <div className='container3'>
-                <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
-
-                  <div className='heading3'>{data.heading.slice(0,30)} <div className='number2'>{index+2}</div></div>
-                  <div className='cont-img3'>
-                    <img className="img3" src={data.image} alt='Not found' />
+                
+                <div className='cont-img3'>
+                    <img className="leftimg3" src={data.image} alt='Not found' />
                   </div>
+                  <div className='heading3'>{data.heading.slice(0,30)} </div><div className='number2'>{index+2}</div>
+                  
                   {/* <div className='des3'>{data.description.slice(0, 3)}</div>  */}
-                  </NavLink>
+                 
                 </div>
+                </NavLink>
 
               </div>
             )

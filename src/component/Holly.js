@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 //import { useEffect } from 'react';
 import { Store } from './DataStore'
 import Footer from './Footer';
+import { NavLink } from 'react-router-dom';
 function Holly() {
   const [DData] = useContext(Store);
   return (
@@ -14,9 +15,10 @@ function Holly() {
           <h1>Hollywood</h1>
           <hr className='hr1' />
 
-          {DData.filter((item) => item.id >=27&& item.id <= 31).map((data) => {
+          {DData.filter((item) => item.id >=27&& item.id <= 34).map((data) => {
             return (
               <>
+              <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
                 <div className='container1'>
 
                   <div className='heading1'>{data.heading.slice(0, 50)}</div>
@@ -26,6 +28,7 @@ function Holly() {
                   <div className='des1'>{data.description.slice(0, 70)}...</div>
                   <div className='date1'><span style={{ fontWeight: "bold" }}>Post</span>August 21,2009</div>
                 </div>
+                </NavLink>
 
               </>
             )
@@ -41,16 +44,18 @@ function Holly() {
 
           {/* big image */}
           <div className='topleft'>
-            {DData.filter((item) => item.id === 32).map((data,index) => {
+            {DData.filter((item) => item.id === 35).map((data,index) => {
               return (
                 <>
-                  <div className='container2'>
+                <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
+                  <div className='container2' key={index}>
                     <div className='cont-img2'>
-                      <img className="img2" src={data.image} alt='Not found' />
+                      <img className="leftImg" src={data.image} alt='Not found' />
                     </div>
-                    <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading}<div className='number1'>{index+1}</div></div>
+                    <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading.slice(0,20)}<div className='number1'>{index+1}</div></div>
                     {/* <div className='des2'>{data.description.slice(0, 3)}</div> */}
                   </div>
+                  </NavLink>
                   </>
               )
 
@@ -71,17 +76,19 @@ function Holly() {
 
 
 
-          {DData.filter((item) => item.id >=33 && item.id <= 38).map((data,index) => {
+          {DData.filter((item) => item.id >=34 && item.id <= 38).map((data,index) => {
             return (
               <div key={index}>
+              <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
                 <div className='container3'>
-
-                  <div className='heading3'>{data.heading.slice(0,30)} <div className='number2'>{index+2}</div></div>
-                  <div className='cont-img3'>
-                    <img className="img3" src={data.image} alt='Not found' />
+                <div className='cont-img3'>
+                    <img className="leftimg3" src={data.image} alt='Not found' />
                   </div>
+
+                  <div className='heading3'>{data.heading.slice(0,30)}</div> <div className='number2'>{index+2}</div>
                   {/* <div className='des3'>{data.description.slice(0, 3)}</div>  */}
                 </div>
+                </NavLink>
 
               </div>
             )

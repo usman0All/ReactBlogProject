@@ -51,11 +51,11 @@ function Bollywood() {
                 <>
                   {/* making dynamic link*/}
                   <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
-                    <div className='container2'>
+                    <div className='container2' key={index}>
                       <div className='cont-img2'>
-                        <img className="img2" src={data.image} alt='Not found' />
+                        <img className="leftImg" src={data.image} alt='Not found' />
                       </div>
-                      <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading}<div className='number1'>{index + 1}</div></div>
+                      <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading.slice(0, 30)}</div><div className='number1'>{index + 1}</div>
                       <div className='des2'>{data.description.slice(0, 3)}</div>
                     </div>
                   </NavLink>
@@ -85,11 +85,11 @@ function Bollywood() {
                 {/* making dynamic link*/}
                 <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
                 <div className='container3'>
-
-                  <div className='heading3'>{data.heading.slice(0, 30)} <div className='number2'>{index + 2}</div></div>
-                  <div className='cont-img3'>
-                    <img className="img3" src={data.image} alt='Not found' />
+                <div className='cont-img3'>
+                    <img className="leftimg3" src={data.image} alt='Not found' />
                   </div>
+
+                 <div className='heading3'>{data.heading.slice(0,20)} </div><div className='number2'>{index + 2}</div>
                   {/* <div className='des3'>{data.description.slice(0, 3)}</div>  */}
                 </div>
                 </NavLink>

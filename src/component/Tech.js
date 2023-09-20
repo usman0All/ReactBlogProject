@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 //import { useEffect } from 'react';
 import { Store } from './DataStore'
 import Footer from './Footer';
+import { NavLink } from 'react-router-dom';
 function Tech() {
   const [DData] = useContext(Store);
   return (
@@ -14,9 +15,10 @@ function Tech() {
           <h1>Technology</h1>
           <hr className='hr1' />
 
-          {DData.filter((item) => item.id >= 14 && item.id <=19).map((data) => {
+          {DData.filter((item) => item.id >= 14 && item.id <=20).map((data) => {
             return (
               <>
+              <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
                 <div className='container1'>
 
                   <div className='heading1'>{data.heading.slice(0, 50)}</div>
@@ -26,6 +28,7 @@ function Tech() {
                   <div className='des1'>{data.description.slice(0, 70)}...</div>
                   <div className='date1'><span style={{ fontWeight: "bold" }}>Post</span>August 21,2009</div>
                 </div>
+              </NavLink>
 
               </>
             )
@@ -41,17 +44,19 @@ function Tech() {
 
           {/* big image */}
           <div className='topleft'>
-            {DData.filter((item) => item.id === 20).map((data,index) => {
+            {DData.filter((item) => item.id === 21).map((data, index) => {
               return (
                 <>
-                  <div className='container2'>
+                <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
+                  <div className='container2' key={index}>
                     <div className='cont-img2'>
-                      <img className="img2" src={data.image} alt='Not found' />
+                      <img className="leftImg" src={data.image} alt='Not found' />
                     </div>
-                    <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading}<div className='number1'>{index+1}</div></div>
+                    <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading}<div className='number1'>{index + 1}</div></div>
                     {/* <div className='des2'>{data.description.slice(0, 3)}</div> */}
                   </div>
-                  </>
+                  </NavLink>
+                </>
               )
 
             })
@@ -71,17 +76,20 @@ function Tech() {
 
 
 
-          {DData.filter((item) => item.id >= 21 && item.id <= 26).map((data,index) => {
+          {DData.filter((item) => item.id >= 22 && item.id <=26).map((data, index) => {
             return (
               <div key={index}>
+              <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
                 <div className='container3'>
-
-                  <div className='heading3'>{data.heading.slice(0,30)} <div className='number2'>{index+2}</div></div>
                   <div className='cont-img3'>
-                    <img className="img3" src={data.image} alt='Not found' />
+                    <img className="leftimg3" src={data.image} alt='Not found' />
                   </div>
+
+                  <div className='heading3'>{data.heading.slice(0, 30)}</div><div className='number2'>{index + 2}</div>
+
                   {/* <div className='des3'>{data.description.slice(0, 3)}</div>  */}
                 </div>
+                </NavLink>
 
               </div>
             )
@@ -89,19 +97,19 @@ function Tech() {
           })
           }
 
-            <div className='Add'>
-               <div>Advertisement</div>
-            </div>
+          <div className='Add'>
+            <div>Advertisement</div>
+          </div>
         </div>
         {/* parent2 end*/}
 
 
       </div>
       {/* main end */}
-       {/* footer section  */}
+      {/* footer section  */}
 
-       <Footer/>
-       </>
+      <Footer />
+    </>
   )
 }
 

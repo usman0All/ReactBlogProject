@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 //import { useEffect } from 'react';
 import { Store } from './DataStore'
 import Footer from './Footer';
+import { NavLink } from 'react-router-dom';
 function Food() {
   const [DData] = useContext(Store);
   return (
@@ -19,6 +20,7 @@ function Food() {
           {DData.filter((item) => item.id>=54&&item.id<=60).map((data) => {
             return (
               <>
+              <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
                 <div className='container1'>
 
                   <div className='heading1'>{data.heading.slice(0, 50)}</div>
@@ -28,6 +30,7 @@ function Food() {
                   <div className='des1'>{data.description.slice(0, 70)}...</div>
                   <div className='date1'><span style={{ fontWeight: "bold" }}>Post</span>August 21,2009</div>
                 </div>
+                </NavLink>
 
               </>
             )
@@ -43,16 +46,18 @@ function Food() {
 
           {/* big image */}
           <div className='topleft'>
-            {DData.filter((item) => item.id ===61 ).map((data,index) => {
+            {DData.filter((item) => item.id ===66).map((data,index) => {
               return (
                 <>
-                  <div className='container2'>
+                <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
+                  <div className='container2' key={index}>
                     <div className='cont-img2'>
-                      <img className="img2" src={data.image} alt='Not found' />
+                      <img className="leftImg" src={data.image} alt='Not found' />
                     </div>
                     <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading}<div className='number1'>{index+1}</div></div>
                     {/* <div className='des2'>{data.description.slice(0, 3)}</div> */}
                   </div>
+                  </NavLink>
                   </>
               )
 
@@ -73,17 +78,21 @@ function Food() {
 
 
 
-          {DData.filter((item) => item.id >=62 && item.id <= 66).map((data,index) => {
+          {DData.filter((item) => item.id >=60&& item.id <= 64).map((data,index) => {
             return (
               <div key={index}>
-                <div className='container3'>
+              <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
 
-                  <div className='heading3'>{data.heading.slice(0,30)} <div className='number2'>{index+2}</div></div>
-                  <div className='cont-img3'>
-                    <img className="img3" src={data.image} alt='Not found' />
+                <div className='container3'>
+                <div className='cont-img3'>
+                    <img className="leftimg3" src={data.image} alt='Not found' />
                   </div>
+
+                  <div className='heading3'>{data.heading.slice(0,30)} </div><div className='number2'>{index+2}</div>
+                 
                   {/* <div className='des3'>{data.description.slice(0, 3)}</div>  */}
                 </div>
+                </NavLink>
 
               </div>
             )
