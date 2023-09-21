@@ -16,7 +16,7 @@ function Footer() {
       <footer className='footer'>
 
         {/* //////s1/////// */}
-        <div className='section'>
+        <div className='section1'>
           <div className='homeicon'>
             <div><Link to="/" className='soclinks'><img src={i7} alt='Not found' className='icon' style={{ width: 40, height: 40 }} /></Link></div>
             <h3>The Siren</h3>
@@ -28,7 +28,7 @@ function Footer() {
           </div>
           <div className='homewrite'>
           <div><Link to="/" className='soclinks'><img src={i8} alt='Not found' className='icon' style={{ width:20, height:20 }} /></Link></div>
-            <h5>sirenblog@gmail.com</h5>
+            <h4>sirenblog@gmail.com</h4>
           </div>
 
         </div>
@@ -41,6 +41,7 @@ function Footer() {
             <div className='flinks'>Co-branding</div>
             <div className='flinks'>Honar</div>
             <div className='flinks'>Giveway</div>
+            <div className='flinks'>@Copyright</div>
           </div>
         </div>
 

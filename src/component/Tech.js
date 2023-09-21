@@ -3,10 +3,12 @@ import React, { useContext } from 'react'
 import { Store } from './DataStore'
 import Footer from './Footer';
 import { NavLink } from 'react-router-dom';
+import LinkCompo from './LinkCompo';
 function Tech() {
   const [DData] = useContext(Store);
   return (
     <>
+    <LinkCompo/>
       {/*/////////////////////////// main ///////////////////////////////// */}
       <div className='main-container'>
         {/*/////// parent1/////// */}

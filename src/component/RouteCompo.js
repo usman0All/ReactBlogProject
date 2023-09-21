@@ -5,13 +5,13 @@ import Tech from './Tech'
 import Holly from './Holly'
 import Fitnes from './Fitnes'
 import Food from "./Food"
-import LinkCompo from './LinkCompo'
+// import LinkCompo from './LinkCompo'
 import DataStore from './DataStore'
 import Content from './Content'
 function RouteCompo() {
   return (
     <BrowserRouter>
-    <LinkCompo/>
+    {/* <LinkCompo/> */}
 
     <hr className='hr' />
       <DataStore>

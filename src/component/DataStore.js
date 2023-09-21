@@ -252,42 +252,37 @@ function DataStore(props) {
         id:31,
         heading:"Fantastic Beasts: The Secrets of Dumbledore certainly sets up a sequel - but will there be a Fantastic Beasts 4? Here's everything we know so far.",
         image:"https://upload.wikimedia.org/wikipedia/en/3/34/Fantastic_Beasts-_The_Secrets_of_Dumbledore.png",
-        description:"Fantastic Beasts The Secrets of Dumbledore certainly sets up a sequel - but will there be a Fantastic Beasts 4? Here's everything we know so far. ",
+        description:"Fantastic Beasts The Secrets of Dumbledore certainly sets up a sequel - but will there be a Fantastic Beasts 4? Here's everything we know so far.Fantastic Beasts: The Secrets of Dumbledore arrived in 2022, and here’s everything to know about its sequel, Fantastic Beasts 4. The Fantastic Beasts franchise, a prequel series set decades before the Harry Potter films, has not had the smoothest journey. Between the release of the second and third films, the role of Grindelwald was recast — with Mads Mikkelsen replacing Johnny Depp — and J.K. Rowling at the center of controversy, among other things. The Secrets of Dumbledore is the third installment, following Albus Dumbledore, Newt Scamander, and their assembled group of allies as they aim to stop Gellert Grindelwald in his bid for power over the Wizarding World. ",
         cat:"holly",
-        para:"Fantastic Beasts: The Secrets of Dumbledore arrived in 2022, and here’s everything to know about its sequel, Fantastic Beasts 4. The Fantastic Beasts franchise, a prequel series set decades before the Harry Potter films, has not had the smoothest journey. Between the release of the second and third films, the role of Grindelwald was recast — with Mads Mikkelsen replacing Johnny Depp — and J.K. Rowling at the center of controversy, among other things. The Secrets of Dumbledore is the third installment, following Albus Dumbledore, Newt Scamander, and their assembled group of allies as they aim to stop Gellert Grindelwald in his bid for power over the Wizarding World."
 
       },
       {
         id:32,
         heading:'Twilight Saga TV series is reportedly in the works',
         image:"https://our.today/wp-content/uploads/2023/04/Twilight-1024x576.jpg",
-        description:"Well Twilight fans, this news is about to take you to the moon and back!",
+        description:"Well Twilight fans, this news is about to take you to the moon and back!. More than a decade after the film adaptations of the Twilight saga reached an epic conclusion, a television series based on Stephenie Meyer’s four-part book series is reportedly in the works According to The Hollywood Reporter, the upcoming series is in the stages of early development at Lionsgate Television.However there have been very few confirmed details such as a network/platform or a writer. Reports are that the author, Meyer, is expected to be involved in the highly anticipated project.",
         cat:'holly',
-        para:"More than a decade after the film adaptations of the Twilight saga reached an epic conclusion, a television series based on Stephenie Meyer’s four-part book series is reportedly in the works According to The Hollywood Reporter, the upcoming series is in the stages of early development at Lionsgate Television.However there have been very few confirmed details such as a network/platform or a writer. Reports are that the author, Meyer, is expected to be involved in the highly anticipated project. "
       },
       {
         id:33,
         heading:"Jumanji 4 potential release date, cast and everything you need to know",
         image:"https://m.media-amazon.com/images/I/81L4HT0pS5L._AC_SY679_.jpg",
-        description:"Jumanji: Welcome to the Jungle",
+        description:"Jumanji: Welcome to the Jungle Jumanji, the magical board game and ancient portal to its fearsome and savage jungles, gets an upgrade, this time luring four teens into its realm when one of them stumbles upon an old-school video-game console. Inevitably, as the unwitting players transform into their chosen game avatars inside a mysterious new world crawling with formidable adversaries, they'll need to put their newly-acquired skills to good use to finally complete the game. The deep sound of the feral drums is incessant. Can the quirky quartet return to the physical world in one piece?",
         cat:'holly',
-        para:"Jumanji, the magical board game and ancient portal to its fearsome and savage jungles, gets an upgrade, this time luring four teens into its realm when one of them stumbles upon an old-school video-game console. Inevitably, as the unwitting players transform into their chosen game avatars inside a mysterious new world crawling with formidable adversaries, they'll need to put their newly-acquired skills to good use to finally complete the game. The deep sound of the feral drums is incessant. Can the quirky quartet return to the physical world in one piece? "
       },
       {
         id:34,
         heading:"Transformers movies in order: Chronological and release",
         image:"https://cdn.mos.cms.futurecdn.net/dPo92zYeAz7Joxh7HWooJ3-970-80.jpg.webp",
-        description:"ransformers: Rise of the Beasts is a 2023 American science fiction action film based on Hasbro's Transformers toy line, and primarily influenced by its Beast Wars sub-franchise. It is the seventh installment in the Transformers live-action film series and serves as both a standalone sequel to Bumblebee (2018) and a prequel to Transformers (2007).[6] The film was directed by Steven Caple Jr. from a screenplay by Joby Harold, Darnell Metayer, Josh Peters, Erich Hoeber, and Jon Hoeber. It stars Anthony Ramos and Dominique Fishback as well as the voice talents of Ron Perlman, Peter Dinklage, Michelle Yeoh, Pete Davidson, Liza Koshy, Michaela Jaé Rodriguez, Colman Domingo, Cristo Fernández, Tongayi Chirisa, and returning franchise regulars Peter Cullen, John DiMaggio, and David Sobolov. Set in 1994, the film follows ex-military electronics expert Noah Diaz and artifact researcher Elena Wallace as they help the Autobots and the Maximals protect an artifact known as the Transwarp Key from the villainous Terrorcons who intend to use it to bring their planet-eating master Unicron to Earth. ",
+        description:"ransformers: Rise of the Beasts is a 2023 American science fiction action film based on Hasbro's Transformers toy line, and primarily influenced by its Beast Wars sub-franchise. It is the seventh installment in the Transformers live-action film series and serves as both a standalone sequel to Bumblebee (2018) and a prequel to Transformers (2007).[6] The film was directed by Steven Caple Jr. from a screenplay by Joby Harold, Darnell Metayer, Josh Peters, Erich Hoeber, and Jon Hoeber. It stars Anthony Ramos and Dominique Fishback as well as the voice talents of Ron Perlman, Peter Dinklage, Michelle Yeoh, Pete Davidson, Liza Koshy, Michaela Jaé Rodriguez, Colman Domingo, Cristo Fernández, Tongayi Chirisa, and returning franchise regulars Peter Cullen, John DiMaggio, and David Sobolov. Set in 1994, the film follows ex-military electronics expert Noah Diaz and artifact researcher Elena Wallace as they help the Autobots and the Maximals protect an artifact known as the Transwarp Key from the villainous Terrorcons who intend to use it to bring their planet-eating master Unicron to Earth.To prepare for the premiere of Transformers: The Last Knight, I watched all four prior Transformers movies—all 611 minutes—in the span of two days, an experience I’m confident changed me as a person. I now dream of explosions, think primarily in Linkin Park songs; I blacked out halfway through Age of Extinction, and when I woke up I was leasing several Dodge Chargers. I cannot afford any of them. What I can do, however, is explain every detail of Michael Bay’s pyrotechnic-porn franchise based on a line of toys from the 1980s, the ins-and-outs of the Transformers universe ",
         cat:"holly",
-        para:"To prepare for the premiere of Transformers: The Last Knight, I watched all four prior Transformers movies—all 611 minutes—in the span of two days, an experience I’m confident changed me as a person. I now dream of explosions, think primarily in Linkin Park songs; I blacked out halfway through Age of Extinction, and when I woke up I was leasing several Dodge Chargers. I cannot afford any of them. What I can do, however, is explain every detail of Michael Bay’s pyrotechnic-porn franchise based on a line of toys from the 1980s, the ins-and-outs of the Transformers universe."
       },
       {
         id:35,
         heading:"Harry Potter: Hogwarts Mystery Award-Winning Developers Say Mobile Gaming Is The Future Of Entertainment",
         image:"https://imageio.forbes.com/specials-images/imageserve/5e997eecf57d440006ee339d/Harry-Potter--Hogwarts-Mystery--by-Jam-City-and-Portkey-Games/960x0.jpg?format=jpg&width=960 ",
-        description: "Harry Potter: Hogwarts Mystery, created by Los Angeles-based game developer ",
+        description: "Harry Potter: Hogwarts Mystery, created by Los Angeles-based game developer .Harry Potter: Hogwarts Mystery, created by Los Angeles-based game developer Jam City under Portkey Games, released in 2018. An immersive, narrative-driven mobile game offering players the ability to customise their experience entirely, the game ranked as the #1 most downloaded game in over 40 countries. In a time where we are seeing the entertainment industry upended by the Covid-19 pandemic, mobile gaming may just prove to be the future of entertainment, and a promising avenue for creatives to consider, according to Jam’s City’s narrative director, Kimberly Hamilton, and Jam City’s co-founder, Josh Yguado. ",
         cat:"holly",
-        para:"Harry Potter: Hogwarts Mystery, created by Los Angeles-based game developer Jam City under Portkey Games, released in 2018. An immersive, narrative-driven mobile game offering players the ability to customise their experience entirely, the game ranked as the #1 most downloaded game in over 40 countries. In a time where we are seeing the entertainment industry upended by the Covid-19 pandemic, mobile gaming may just prove to be the future of entertainment, and a promising avenue for creatives to consider, according to Jam’s City’s narrative director, Kimberly Hamilton, and Jam City’s co-founder, Josh Yguado. "
 
       },
 
@@ -295,33 +290,30 @@ function DataStore(props) {
         id:36,
         heading:"11 Facts About Tom & Jerry that Will Blow Your Mind",
         image:"https://1.bp.blogspot.com/-cVhHjgjcyK8/X_q9f4eVyxI/AAAAAAAACas/seoF3SsI-LgJDgbHWQyqXCwqneJl0bEZQCLcBGAsYHQ/w400-h269/tom%2Band%2Bjerry.jpg",
-        description:" Highly influential and extremely memorable, the series are often remembered for their iconic cat and mouse fights",
-        cat:'holly',
-        para:"As you are here, you must be curious to know more about tom & jerry. So let’s begin by very basic fact that it was created as early as the 1940s by William Hanna and Joseph Barbera, the cat and mouse duo Tom & Jerry have since won over the hearts of millions. The animation series took the world by storm and is truly an unforgettable part of the childhoods of many generations."
+        description:" Highly influential and extremely memorable, the series are often remembered for their iconic cat and mouse fights. As you are here, you must be curious to know more about tom & jerry. So let’s begin by very basic fact that it was created as early as the 1940s by William Hanna and Joseph Barbera, the cat and mouse duo Tom & Jerry have since won over the hearts of millions. The animation series took the world by storm and is truly an unforgettable part of the childhoods of many generations.",
+        cat:'holly'
       },
       {
         id:37,
         heading:"All The Witcher season 4 news we’ve heard so far",
         image:"https://m.media-amazon.com/images/I/51TbOaoGxhL.jpg",
-        description:"Next time we see Geralt, he’ll have a very different face ",
-        cat:"holly",
-        para:"The Witcher season 3 has reached an end after two parts and eight episodes, but that doesn’t mean our heroes’ journey across The Continent is over. After violent coups, dangerous plots, secret portals, and plenty of fights, Geralt, Yennefer, and Ciri are all separated, and who knows when they might get back together again Netflix is definitely bringing The Witcher back for season 4, and while we have a few ideas about what’s to come, including the series’ already infamous recasting, there are still quite a few questions left, including when it might come out. "
+        description:"Next time we see Geralt, he’ll have a very different face  The Witcher season 3 has reached an end after two parts and eight episodes, but that doesn’t mean our heroes’ journey across The Continent is over. After violent coups, dangerous plots, secret portals, and plenty of fights, Geralt, Yennefer, and Ciri are all separated, and who knows when they might get back together again Netflix is definitely bringing The Witcher back for season 4, and while we have a few ideas about what’s to come, including the series’ already infamous recasting, there are still quite a few questions left, including when it might come out. ",
+        cat:"holly"
+     
       },
       {
         id:38,
         heading:"Will there be a fourth Narnia movie?",
         image:"https://www.narniaweb.com/wp-content/uploads/2019/03/3-Posters.png",
-        description:" Walden Media produced three movies based on The Chronicles of Narnia by C.S. Lewis between 2005 and 2010.", 
-        cat:"holly",
-        para:"After The Voyage of the Dawn Treader‘s box office sank below expectations, producers disagreed about which Narnia book to bring to the screen next. Walden Media hoped to produce The Magician’s Nephew as the fourth film in the series, but negotiations fell through and they lost the rights. In 2013, The Mark Gordon Company began developing The Chronicles of Narnia: The Silver Chair. Director Joe Johnston said it would begin a new Narnia “trilogy.” But the project was eventually abandoned due to creative differences between Douglas Gresham and the studio.Currently, Netflix is developing Narnia movies and series with Matthew Aldrich at the helm. Here is everything we know. "
+        description:" Walden Media produced three movies based on The Chronicles of Narnia by C.S. Lewis between 2005 and 2010.After The Voyage of the Dawn Treader‘s box office sank below expectations, producers disagreed about which Narnia book to bring to the screen next. Walden Media hoped to produce The Magician’s Nephew as the fourth film in the series, but negotiations fell through and they lost the rights. In 2013, The Mark Gordon Company began developing The Chronicles of Narnia: The Silver Chair. Director Joe Johnston said it would begin a new Narnia “trilogy.” But the project was eventually abandoned due to creative differences between Douglas Gresham and the studio.Currently, Netflix is developing Narnia movies and series with Matthew Aldrich at the helm. Here is everything we know. ", 
+        cat:"holly"
       },
       {
         id:39,
         heading:"Luke Evans wants his Dracula to join Universal's Dark Universe",
         image:"https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/41/1476453918-dracula-untold-key-di-1.jpg",
-        description:"This is a character who could transcend many different times.",
-        cat:'holly',
-        para:" Luke Evans definitely isn't convinced that his version of Dracula has been staked through the heart.The Fast & Furious star played the immortal vampire in 2014's Dracula Untold, which had been tipped as being connected to what has become Universal's Dark Universe of monster movies.Dracula Untold was very successful at the worldwide box office with more than $200 million in ticket sales, but its reviews were poor.Evans has now acknowledged the film's flaws, but suggested to Screenrant that he'd like another shot at playing Dracula alongside Tom Cruise's Mummy hunter, Russell Crowe's Dr. Jekyl and Javier Bardem's Frankenstein monster in the shared Dark Universe."
+        description:"This is a character who could transcend many different times. Luke Evans definitely isn't convinced that his version of Dracula has been staked through the heart.The Fast & Furious star played the immortal vampire in 2014's Dracula Untold, which had been tipped as being connected to what has become Universal's Dark Universe of monster movies.Dracula Untold was very successful at the worldwide box office with more than $200 million in ticket sales, but its reviews were poor.Evans has now acknowledged the film's flaws, but suggested to Screenrant that he'd like another shot at playing Dracula alongside Tom Cruise's Mummy hunter, Russell Crowe's Dr. Jekyl and Javier Bardem's Frankenstein monster in the shared Dark Universe.",
+        cat:'holly'
       },
       //fitnes data 14
       {
@@ -455,57 +447,53 @@ function DataStore(props) {
         id:57,
         heading:"Make Rajasthani Masala Bati At Home Without An Oven. ",
         image:"https://c.ndtvimg.com/2023-01/gkj9ep5_dal-bati_625x300_15_January_23.jpg ",
-        description:"Dal Baati is created from a blend of wheat flour and five types of lentils. ",
+        description:"Dal Baati is created from a blend of wheat flour and five types of lentils. Make Rajasthani Masala Bati At Home Without An Oven And Enjoy The Traditional FlavoursRajasthan, a state in India renowned for its history, culture, handicrafts, and delectable food, boasts iconic dishes such as lal maas, gatte ki sabzi, bajre ki roti, and rabodi ki sabzi.PayalUpdated: August 04, 2023 16:19 ISTRead Time:2 mi Make Rajasthani Masala Bati At Home Without An Oven And Enjoy The Traditional Flavours Dal Baati is created from a blend of wheat flour and five types of lentils.HighlightsDal Baati stands out as a wonderful recipe with fans across the globe.Traditionally, Daal Baati is cooked over hot coals.Alternatively, deep frying in oil is also an option.Indian cuisine is brimming with diversity; when it comes to regional dishes, each state offers a plethora of delicious options that can entirely transform your taste buds. Rajasthan, a state in India renowned for its history, culture, handicrafts, and delectable food, boasts iconic dishes such as lal maas, gatte ki sabzi, bajre ki roti, and rabodi ki sabzi. Among these culinary treasures, Dal Baati stands out as a wonderful recipe with fans across the globe. Dal Baati is created from a blend of wheat flour and five types of lentils, served alongside ghee and churma.",
         cat:"food",
-        para:" Make Rajasthani Masala Bati At Home Without An Oven And Enjoy The Traditional FlavoursRajasthan, a state in India renowned for its history, culture, handicrafts, and delectable food, boasts iconic dishes such as lal maas, gatte ki sabzi, bajre ki roti, and rabodi ki sabzi.PayalUpdated: August 04, 2023 16:19 ISTRead Time:2 mi Make Rajasthani Masala Bati At Home Without An Oven And Enjoy The Traditional Flavours Dal Baati is created from a blend of wheat flour and five types of lentils.HighlightsDal Baati stands out as a wonderful recipe with fans across the globe.Traditionally, Daal Baati is cooked over hot coals.Alternatively, deep frying in oil is also an option.Indian cuisine is brimming with diversity; when it comes to regional dishes, each state offers a plethora of delicious options that can entirely transform your taste buds. Rajasthan, a state in India renowned for its history, culture, handicrafts, and delectable food, boasts iconic dishes such as lal maas, gatte ki sabzi, bajre ki roti, and rabodi ki sabzi. Among these culinary treasures, Dal Baati stands out as a wonderful recipe with fans across the globe. Dal Baati is created from a blend of wheat flour and five types of lentils, served alongside ghee and churma."
+       
       },
       {
         id:58,
         heading:"Enjoy Cake Guilt-Free! 6 Easy Ways To Make It Healthier And Tastier ",
         image:"https://c.ndtvimg.com/2022-09/028kv0ag_walnut-cake_625x300_07_September_22.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350 ",
-        description:"Cakes can be made healthier by swapping certain ingredien ",
+        description:"Cakes can be made healthier by swapping certain ingredien . re you tired of resisting your sweet cravings while on a diet? Are you craving cakes but worried about putting on extra calories? We understand that this can be quite challenging. Cakes are loaded with sugar and unhealthy fats, which can hinder our weight loss goals. But don't lose hope, as there are numerous ways in which you can enjoy cakes totally guilt-free! All you have to do is swap it for healthier ingredients. Your cake will taste just as good but will be a lot healthier. Isn't that something we all desire? Find below some helpful tips to up the nutrient quotient of your cakes",
         cat:"food",
-        para:" re you tired of resisting your sweet cravings while on a diet? Are you craving cakes but worried about putting on extra calories? We understand that this can be quite challenging. Cakes are loaded with sugar and unhealthy fats, which can hinder our weight loss goals. But don't lose hope, as there are numerous ways in which you can enjoy cakes totally guilt-free! All you have to do is swap it for healthier ingredients. Your cake will taste just as good but will be a lot healthier. Isn't that something we all desire? Find below some helpful tips to up the nutrient quotient of your cakes:"
+  
       },
       {
         id:59,
         heading:"5 Mouth-Watering Indian Snacks To Relish This Monsoon And Earn Exciting Rewards ",
         image:"https://c.ndtvimg.com/2022-05/sklejhng_aloo-bread-pakoda_625x300_13_May_22.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350 ",
-        description:"These snacks taste best when paired with a hot cup of chai or coffee. ",
-        cat:"food",
-        para:"The monsoon season is in full swing, and so are our cravings for all things delicious. It's almost inevitable to not indulge in greasy and crispy snacks during this time of year. With beautiful cloudy skies, the sound of the pitter-patter of the rain, and a cool breeze flowing on our faces, we certainly do not want to miss any second of it. And sipping on a cup of chai or indulging in scrumptious snacks only makes it a whole lot better. Doesn't it? The best part is that we are spoiled for choice when it comes to selecting these snacks. With so many flavourful options to choose from, it can be a bit confusing. "
+        description:"These snacks taste best when paired with a hot cup of chai or coffee. The monsoon season is in full swing, and so are our cravings for all things delicious. It's almost inevitable to not indulge in greasy and crispy snacks during this time of year. With beautiful cloudy skies, the sound of the pitter-patter of the rain, and a cool breeze flowing on our faces, we certainly do not want to miss any second of it. And sipping on a cup of chai or indulging in scrumptious snacks only makes it a whole lot better. Doesn't it? The best part is that we are spoiled for choice when it comes to selecting these snacks. With so many flavourful options to choose from, it can be a bit confusing.",
+        cat:"food"
       },
       {
         id:60,
         heading:"World Coconut Day: 5 Coconut-Based Drinks To Refresh Your Mood ",
         image:" https://c.ndtvimg.com/2022-05/4ks5p5jo_coconut-water-recipes-_625x300_12_May_22.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
-        description:"World Coconut Day is incomplete without these coconut-based drinks ",
+        description:"World Coconut Day is incomplete without these coconut-based drinks . Coconut has always been an integral part of Indian cuisine and culture likewise. Right from distributing dry coconuts in the form of prashad to preparing nariyaal ki barfi, the options are unlimited. You can also prepare an array of sweet and savoury dishes. Also, coconut oil is largely used in preparing various delicacies in the southern part of the country. And, we just cannot overlook its health benefits. To highlight the importance of this fruit, World Coconut Day is marked on September 2. Wondering how can you celebrate this day? Here, we have listed about five recipes for delicious drinks that use coconut in some way or another.",
         cat:"food",
-        para:"Coconut has always been an integral part of Indian cuisine and culture likewise. Right from distributing dry coconuts in the form of prashad to preparing nariyaal ki barfi, the options are unlimited. You can also prepare an array of sweet and savoury dishes. Also, coconut oil is largely used in preparing various delicacies in the southern part of the country. And, we just cannot overlook its health benefits. To highlight the importance of this fruit, World Coconut Day is marked on September 2. Wondering how can you celebrate this day? Here, we have listed about five recipes for delicious drinks that use coconut in some way or another. "
+       
       },
       {
         id:61,
         heading:"Veg Recipes Under 30 Minutes | Quick Veg Recipes ",
         image:"https://c.ndtvimg.com/2020-06/qc8ndie_rajma-sandwich_625x300_04_June_20.jpg ",
-        description:"Quick Veg Recipes: Toss up the best of our veg recipes for your next meal ",
-        cat:"food",
-        para:"Love to eat but don't have the time to cook? Well, we bring you quick recipes that can be rustled up within 30 minutes without requiring much effort. Sounds too good to be true? Try it to believe it! There's nothing quite like enjoying simple flavours in home-made meals. Not only is it healthy, you can also pick your favourite ingredients and customise the flavours as per your liking. And when it comes to veggies there are so many delicious ways you can cook them! You should make the most of seasonal produce to load up on all the essential nutrients "
+        description:"Quick Veg Recipes: Toss up the best of our veg recipes for your next meal .Love to eat but don't have the time to cook? Well, we bring you quick recipes that can be rustled up within 30 minutes without requiring much effort. Sounds too good to be true? Try it to believe it! There's nothing quite like enjoying simple flavours in home-made meals. Not only is it healthy, you can also pick your favourite ingredients and customise the flavours as per your liking. And when it comes to veggies there are so many delicious ways you can cook them! You should make the most of seasonal produce to load up on all the essential nutrients ",
+        cat:"food"
       },
       {
         id:62,
         heading:"Street Vendor Makes Paratha Doused In Excessive Oil - 'Heart Attack,' ",
         image:"https://c.ndtvimg.com/2023-08/irq730c_paratha-in-oil_625x300_04_August_23.jpg ",
-        description:"The paratha was doused in excessive oil much to the internet's dismay. ",
+        description:"The paratha was doused in excessive oil much to the internet's dismay.There is something about street food which is so unmissable. Whether it is crispy sev puri or a hearty aloo tikki - we can't help dig into plate after plate of these treats. In the northern areas of the country, paratha is also a popular dish that is available on the street-side stalls. Vendors often serve parathas with chole, dal or as it is. Recently, however, the video of the making of a paratha by a street vendor has left the internet in shock. The reason was the copious quantity of oil used in the video. Take a look ",
         cat:"food",
-        para:" There is something about street food which is so unmissable. Whether it is crispy sev puri or a hearty aloo tikki - we can't help dig into plate after plate of these treats. In the northern areas of the country, paratha is also a popular dish that is available on the street-side stalls. Vendors often serve parathas with chole, dal or as it is. Recently, however, the video of the making of a paratha by a street vendor has left the internet in shock. The reason was the copious quantity of oil used in the video. Take a look"
       },
       {
         id:63,
         heading:"Did You Know? Meta CEO Mark Zuckerberg Eats 4,000 Calories Every Day ",
         image:"https://c.ndtvimg.com/2023-08/6bcun6n_mark-zuckerberg_625x300_04_August_23.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350 ",
         description:"Mark Zuckerberg is clearly a McDonald's fan and we have proof.",
-        cat:"food",
-        para:"The diets of our favourite celebrities are a source of much curiousity. We often love to read about what famous people eat to keep themselves fit in spite of their busy schedules. This diet discussion is not just limited to film personalities but even CEOs of big tech companies like Twitter, Meta and more. Billionaire Elon Musk regularly shares posts about the food he eats and the diet "
+        cat:"food"
       },
       {
         id:64,

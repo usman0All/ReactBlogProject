@@ -1,11 +1,14 @@
 import React, { useContext } from 'react'
 import { Store } from './DataStore'
 import { NavLink } from 'react-router-dom';
+import LinkCompo from "./LinkCompo"
 import Footer from './Footer';
 function Bollywood() {
   const [DData] = useContext(Store);
   return (
     <>
+    <LinkCompo/>
+    
       {/*/////////////////////////// main ///////////////////////////////// */}
       <div className='main-container'>
 
