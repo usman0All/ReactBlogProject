@@ -158,7 +158,7 @@ position:absolute;
   /* position: absolute;
   top:0px;
   left:40%; */
-  text-align: start;
+  text-align:start;
   width:100px;
   height: 50px;
 }
@@ -259,10 +259,10 @@ position:absolute;
 .latestP{
   display: flex;
   justify-content:center;
-  /* border:2px solid green; */
+  border:5px solid green;
 }
 .latestP1{
-  /* border: 2px solid blue; */
+  border: 5px solid blue;
   margin-right:8px;
   width:300px;
   height: 220px;
@@ -273,20 +273,28 @@ position:absolute;
 }
 /* latest Article */
 .lArticle{
-   border: 3px solid black; margin-top: 5%;
+   border: 3px solid black; 
+   margin-top: 5%;
 
 
 }
 .articleP{
   display: flex;
   justify-content:space-around;
+  border:3px solid red;
 }
 /* dynamic data */
 .Dynamiclink{
   text-decoration: none;
   color: black;
 }
-
+.article{
+  border: 3px solid black;
+}
+.latestArt{
+  border: 3px solid orangered;
+  border-bottom: 2px solid grey;margin-top: 10px;
+}
 @media screen and (max-width:480px){
   .main-container{
     display: flex;

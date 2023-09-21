@@ -51,17 +51,24 @@ function Home() {
           <h1>Latest Article</h1>
           <hr className='hr1' />
        </div>
+
        <div className='articleP'>
           <div className='article'>
             {DData.filter((item) => item.id % 11 === 2).map((data, index) => {
               return (
-                <div className='latestP1' key={index}>
+                <>
+  
+                <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
+                
+                <div className='latestArt' key={index}>
                   <div className='latestimg'>
                     <img className="latestimg" src={data.image} alt='Not found' />
                     <div>{data.description.slice(0, 20)}</div>
                   </div>
                 </div>
-              )
+                </NavLink>
+                </>
+                )
             })
             }
  </div>
@@ -115,7 +122,7 @@ function Home() {
 
           {/* left side parent3 */}
 
-          {DData.filter((item) =>item.id%10===2).map((data, index) => {
+          {DData.filter((item) =>item.id%12===2).map((data, index) => {
             return (
               <div key={index}>
                 {/* making dynamic link*/}
