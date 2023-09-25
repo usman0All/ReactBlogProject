@@ -19,13 +19,13 @@
     padding: 2px;
 }
 .Dimgbox{
-    width:500px;
+    width:450px;
     height:350px;
     /* border:3px solid red; */
     margin-top: 0.5rem;
 } 
 .Dimg{
-    width:500px;
+    width:450px;
      height:350px;
      border-radius:5%;
    /* border: 5px solid black; */
@@ -110,7 +110,7 @@
     /* border:3px solid red; */
 } 
 .Dimg2{
-    width:320px;
+    width:310px;
     height:250px;
     border-radius: 10%;
     padding:2px;
@@ -124,6 +124,7 @@
 }
 .user2{
     /* border:1px solid black; */
+    position: relative;
     width:200px;
     height:50px;
 
@@ -175,8 +176,8 @@
     font-weight: bold;
     font-size: medium;
     color: black;
-    top:10%;
-    left:30px;
+     /* top:10%; */
+    left:100%;
     padding:3px;
 }
 .back:hover{

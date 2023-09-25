@@ -33,6 +33,7 @@ function Content() {
                   <div className='user'>
                     <div className='userImg'><img src={image} className='userImg' alt='Not found' /></div>
                     <div><span>Mohd.Usman</span><br /><span> jan,12/2023</span></div>
+                    
                   </div>
                   <div className='smedia'>
                     <span><img src={i1} className="icon" alt='Not found' /></span>
@@ -61,7 +62,7 @@ function Content() {
        </div>
        
       </div>
-      <button className='back'><Link to="/" style={{textDecoration:"none"}}>Goback</Link></button>
+      
       {/* like share section */}
       {/* middle section */}
       <div className='middle-sec'>     
@@ -70,6 +71,7 @@ function Content() {
             <div className='user2'>
               <div className='userImg'><img src={image} className='userImg' alt='Not found' /></div>
               <div><span>Mohd.Usman</span><br /><span> jan,12/2023</span></div>
+              <button className='back'><Link to="/" style={{textDecoration:"none"}}>Goback</Link></button>
             </div>
           </div>
         </div>
