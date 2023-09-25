@@ -73,7 +73,7 @@ function Content() {
             </div>
           </div>
         </div>
-      </div>
+      </div>   
       {/* section2*/}
       <div className='section2'>
         <h1 className='moreFrom'>More from the Siren</h1>
