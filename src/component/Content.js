@@ -87,7 +87,7 @@ function Content() {
                 <div className='Dimgbox2'>
                   <img src={data.image} className="Dimg2" alt="Not found" />
                 </div>
-                <h4 className='Dhea2'>{data.heading.slice(0, 60)}</h4>
+                <h4 className='Dhea2'>{data.heading.slice(0,40)}</h4>
                 <div className='user2'>
                   <div className='userImg'><img src={image} className='userImg' alt='Not found' /></div>
                   <div><span>Mohd.Usman</span><br /><span> jan,12/2023</span></div>

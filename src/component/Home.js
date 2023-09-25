@@ -4,9 +4,10 @@ import Footer from './Footer';
 import { NavLink } from 'react-router-dom';
 import LinkCompo  from "./LinkCompo"
 function Home() {
-  const [DData] = useContext(Store);
+  const [DData] = useContext(Store);   
   // console.log("holly",DData)
-  return (
+  return (   
+    
     <>
     <LinkCompo/>
     <div className='home-container'>

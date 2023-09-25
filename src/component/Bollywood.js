@@ -4,18 +4,18 @@ import { NavLink } from 'react-router-dom';
 import LinkCompo from "./LinkCompo"
 import Footer from './Footer';
 function Bollywood() {
-  const [DData] = useContext(Store);                      
+  const [DData] = useContext(Store);                        
   
   return (
     <>
     <LinkCompo/>
     
       {/*/////////////////////////// main-container ///////////////////////////////// */}
-      <div className='main-container'>
+       <div className='main-container'> 
 
         {/*/////// parent1/////// */}
         <div className='parent1'>
-          <h1>Bollywood</h1>
+          <h1 className='main-head'>Bollywood</h1>
           <hr className='hr1' />
            {DData.filter((item) => item.id >= 1 && item.id <= 10).map((data, index) => {
             return (
@@ -42,11 +42,12 @@ function Bollywood() {
 
         {/*parent 2 */}
         <div className='parent2'>
-          <h1>Top Posts</h1>
+        <h1 className='ph'>Top Posts</h1>
           <hr className='hr1' />
+          
 
           {/* big image */}
-          <div className='topleft'>
+
 
             {DData.filter((item) => item.id === 1).map((data, index) => {
               return (
@@ -67,8 +68,7 @@ function Bollywood() {
             })
 
             }
-          </div>
-          {/* big image end */}
+          {/* big image end */}  
 
 
 
@@ -108,13 +108,15 @@ function Bollywood() {
         {/* parent2 end*/}
 
 
-      </div>
+      </div> 
       {/* main end */}
 
 
 
       {/* footer section  */}
       <Footer />
+    
+   
     </>
 
   )

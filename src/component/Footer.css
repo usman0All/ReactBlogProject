@@ -1,20 +1,27 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 .footer{
+  overflow: hidden;
     background-color:whitesmoke;
     color:grey;
     display: flex;
     justify-content:space-between;  
-    /* position: fixed;
-    bottom: 0px; */
+    /* border : 3px solid blue; */
   }
   .section{
     width:400px;
     /* border: 5px solid red; */
     background-color:whitesmoke;
+   
   }
   .section1{
     width:500px;
     /* border: 5px solid red; */
     background-color:whitesmoke;
+   
   }
   .section h3{
     text-align: center;
@@ -25,6 +32,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    box-sizing: content-box;
   }
   .flinks{
     text-decoration: none;
@@ -99,30 +107,29 @@
   
    @media screen and (max-width:480px){
     .footer{
-      padding: 0px;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
       flex-direction: column;
-      /* width:100%; */
     }
     .section{
-      width:100%;
+      width:95%;
       /* border: 5px solid red; */
       background-color:whitesmoke;
     }
     .section1{
-      width:100%;
+      width:95%;
        /* border:1px solid blue;  */
       background-color:whitesmoke;
     }
     .aflink{
       display: flex;
-      flex-direction:row;
+      align-items: center;
+      justify-content: center;
       flex-wrap: wrap;
       /* align-items: center; */
-      justify-content:space-around;
+      /* justify-content:space-around; */
   
     }
     .soclink{

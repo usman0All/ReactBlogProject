@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content:center;
+    overflow: hidden;
 } 
 .parentD1{  
     /* border: 4px solid green; */
@@ -19,14 +20,15 @@
     padding: 2px;
 }
 .Dimgbox{
-    width:450px;
-    height:350px;
+    width:400px;
+    height:300px;
     /* border:3px solid red; */
     margin-top: 0.5rem;
+    overflow: clip;
 } 
 .Dimg{
-    width:450px;
-     height:350px;
+    width:400px;
+     height:300px;
      border-radius:5%;
    /* border: 5px solid black; */
 } 
@@ -86,6 +88,7 @@
 .dynamicData2{
     /* border: 10px solid blue; */
     display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content:space-between;
     z-index:3;
@@ -108,19 +111,23 @@
     width: 320px;
     height:250px;
     /* border:3px solid red; */
+    overflow: clip;
 } 
 .Dimg2{
     width:310px;
     height:250px;
     border-radius: 10%;
     padding:2px;
-    /* border: 5px solid black; */
+    overflow: clip;
 } 
+    /* border: 5px solid black; */
+
 .Dhea2{
     text-align: center;
-    width:300px;
-    padding-top:10px;
-    /* border:2px solid black; */
+    width:80%;
+    height: 10%;
+    padding-top:2%;
+     /* border:2px solid black;  */
 }
 .user2{
     /* border:1px solid black; */
@@ -212,7 +219,7 @@ color:white;
         padding: 2px;
     }
     .Dimgbox{
-        width:100%;
+        width:97%;
         height:20%;
         /* border:3px solid red; */
         margin-top: 0.5rem;
@@ -284,19 +291,18 @@ color:white;
         flex-direction: column;
         align-items: center;
         justify-content:space-between;
-        margin:0.5em;
         /* z-index:3; */
     } 
     .Dimgbox2{
-        width:30%;
+        width:25%;
         height:20%;
         /* border:3px solid red; */
     } 
     .Dimg2{
-        width:97%;
-        height:100%;
+        width:80%;
+        height:80%;
         border-radius: 10%;
-        padding:2px;
+        padding:2%;
         /* border: 5px solid black; */
     } 
     .parentD2{
