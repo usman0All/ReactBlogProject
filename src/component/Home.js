@@ -9,6 +9,7 @@ function Home() {
   return (
     <>
     <LinkCompo/>
+    <div className='home-container'>
     
     {/* 3img */}
       <div className='frontimg'>
@@ -21,7 +22,7 @@ function Home() {
                 <div className='img3'><img src={data.img3} alt="Not found" className='img3' /></div>
               </div>
             </div>
-          )
+          )   
         })}
       </div>
       {/* 3img */}
@@ -33,14 +34,14 @@ function Home() {
           <hr className='hr1' />
         </div>
         <div className='latestP'>
-          {DData.filter((item) => { return (item.id === 22 || item.id === 65|| item.id === 44) }).map((data, index) => {
+          {DData.filter((item) => { return (item.id === 21|| item.id === 61|| item.id === 51) }).map((data, index) => {
             return (
               <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
               <div className='latestP1' key={index}>
                 <div className='latestimg'>
                   <img className="latestimg" src={data.image} alt='Not found' />
-                  <h4>{data.description.slice(0,100)}</h4>
-                </div>
+                 </div>
+                 <h4 className='ldes'>{data.description.slice(0,30)}</h4>
 
               </div>
               </NavLink>
@@ -62,7 +63,7 @@ function Home() {
 
       <div className='parent1'>
       {/* latest */}
-          <h1>The Latest</h1>
+          <h1>The Articles</h1>
           <hr className='hr1' />
            {DData.filter((item) =>item.id===5||item.id===15||item.id===25||item.id===35||item.id===55||item.id===65||item.id===1||item.id===45).map((data, index) => {
             return (
@@ -71,11 +72,11 @@ function Home() {
                   {/* making dynamic link*/}
                   <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
 
-                    <div className='heading1'>{data.heading.slice(0, 50)}</div>
+                    <div className='heading1'>{data.heading.slice(0, 40)}</div>
                     <div className='cont-img1'>
                       <img className="imgData" src={data.image} alt='Not found' />
                     </div>
-                    <div className='des1'>{data.description.slice(0, 70)}...</div>
+                    <div className='des1'>{data.description.slice(0, 60)}...</div>
 
                     <div className='date1'><span style={{ fontWeight: "bold" }}>Post</span>August 21,2009</div>
                     {/* dd */}
@@ -131,7 +132,7 @@ function Home() {
 
           {/* left side parent3 */}
 
-          {DData.filter((item) =>item.id===16||item.id===26||item.id===56||item.id===66||item.id===46).map((data, index) => {
+          {DData.filter((item) =>item.id===17||item.id===25||item.id===57||item.id===62||item.id===45).map((data, index) => {
             return (
               <div key={index}>
                 {/* making dynamic link*/}
@@ -162,9 +163,11 @@ function Home() {
 
       
       {/*?/////////// footer/////////// */}
-      <Footer />
+     
 
 {/* /////////////////////// */}
+    </div>
+    <Footer />
     </>
   )
 }

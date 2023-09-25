@@ -10,7 +10,7 @@ import i7 from "../image/home.png";
 import i8 from "../image/paper-plane.png"
 import { Link } from 'react-router-dom'
 
-function Footer() {
+function Footer() {             
   return (
     <>
       <footer className='footer'>

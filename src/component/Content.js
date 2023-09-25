@@ -1,6 +1,6 @@
 import React from 'react'
 import './Content.css'
-import { useParams } from 'react-router-dom'
+import { NavLink, useParams } from 'react-router-dom'
 import { useContext } from 'react'
 import { Store } from './DataStore'
 import image from "../image/ava4.png"
@@ -10,6 +10,8 @@ import i3 from "../image/f.png"
 import i4 from "../image/w.png"
 import like from "../image/rythm (1).svg";
 import share from "../image/share (1).svg";
+import LinkCompo from './LinkCompo'
+import { Link } from 'react-router-dom'
 function Content() {
   const Cid = useParams().Id
   // console.log("dynamic id", Cid);
@@ -18,6 +20,7 @@ function Content() {
   console.log("dynamic data based on cat", category);
   return (
     <>
+    <LinkCompo/>
 
       {/* section 1 */}
       <div className='dynamicData1'>
@@ -49,16 +52,19 @@ function Content() {
 
         })}
       </div>
+
       {/* like share section */}
       <div className='lsParent'>
       <div className='likeshare'>
                     <div><img src={like} className="icon" alt='Not found' />Like</div>
                     <div><img src={share} className="icon" alt='Not found' />Share this article</div>
-        </div>
+       </div>
+       
       </div>
+      <button className='back'><Link to="/" style={{textDecoration:"none" ,color:"white"}}>Goback</Link></button>
       {/* like share section */}
       {/* middle section */}
-      <div className='middle-sec'>
+      <div className='middle-sec'>     
         <div className='middle-child'>
           <div className='border-child'>
             <div className='user2'>
@@ -74,6 +80,7 @@ function Content() {
         <div className='dynamicData2'>
           {DData.filter((item) => item.cat === category).slice(0, 3).map((data, index) => {
             return (
+              <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
               <div key={index} className='parentD2'>
                 <div className='Dimgbox2'>
                   <img src={data.image} className="Dimg2" alt="Not found" />
@@ -84,6 +91,7 @@ function Content() {
                   <div><span>Mohd.Usman</span><br /><span> jan,12/2023</span></div>
                 </div>
               </div>
+              </NavLink>
             );
           })}
         </div>

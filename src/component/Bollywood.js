@@ -4,12 +4,13 @@ import { NavLink } from 'react-router-dom';
 import LinkCompo from "./LinkCompo"
 import Footer from './Footer';
 function Bollywood() {
-  const [DData] = useContext(Store);
+  const [DData] = useContext(Store);                      
+  
   return (
     <>
     <LinkCompo/>
     
-      {/*/////////////////////////// main ///////////////////////////////// */}
+      {/*/////////////////////////// main-container ///////////////////////////////// */}
       <div className='main-container'>
 
         {/*/////// parent1/////// */}
@@ -22,13 +23,11 @@ function Bollywood() {
                 <div key={index} className='container1'>
                   {/* making dynamic link*/}
                   <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
-
-                    <div className='heading1'>{data.heading.slice(0, 50)}</div>
+                  <div className='heading1'>{data.heading.slice(0, 50)}</div>
                     <div className='cont-img1'>
                       <img className="imgData" src={data.image} alt='Not found' />
                     </div>
                     <div className='des1'>{data.description.slice(0, 70)}...</div>
-
                     <div className='date1'><span style={{ fontWeight: "bold" }}>Post</span>August 21,2009</div>
                     {/* dd */}
                   </NavLink>

@@ -1,11 +1,8 @@
 .footer{
     background-color:whitesmoke;
     color:grey;
-    width:95vw;
     display: flex;
-    justify-content:space-between;
-    padding:10px;
-    box-shadow:2px solid black;
+    justify-content:space-between;  
     /* position: fixed;
     bottom: 0px; */
   }
@@ -100,9 +97,95 @@
 
   }
   
-   @media screen and (max-width:480){
+   @media screen and (max-width:480px){
     .footer{
+      padding: 0px;
+      border:2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      /* width:100%; */
+    }
+    .section{
       width:100%;
+      /* border: 5px solid red; */
+      background-color:whitesmoke;
+    }
+    .section1{
+      width:100%;
+       border:1px solid blue; 
+      background-color:whitesmoke;
+    }
+    .aflink{
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      /* align-items: center; */
+      justify-content:space-around;
+  
+    }
+    .soclink{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content:center;
+      margin-top:5px; 
+      flex-direction: row;
+    }
+    .flink {
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
     }
   } 
+    
+  /* tablet */
+  @media screen and (min-width:481px) and (max-width:768px){
+    .footer{
+      padding: 0px;
+      border:2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+    }
+    .section{
+      width:300px;
+      /* border: 5px solid red; */
+      background-color:whitesmoke;
+    }
+    .section1{
+      width:300px;
+       border:1px solid blue; 
+      background-color:whitesmoke;
+    }
+    .aflink{
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      /* align-items: center; */
+      justify-content:space-around;
   
+    }
+    .soclink{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content:center;
+      margin-top:5px; 
+      flex-direction: row;
+    }
+    .flink {
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  } 
