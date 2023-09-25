@@ -170,18 +170,30 @@
     border-radius: 5px;
     position: absolute;
     margin:2%;
-    background-color: white;
     border:2px solid grey;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
     color: black;
     top:10%;
     left:30px;
+    padding:3px;
+}
+.back:hover{
+background-color: black;
+color:white;
 
 }
 .back button Link{
     text-decoration: none;
+    color:black;
 }
 
 @media screen and (max-width:480px) {
+    .back{
+        position: fixed;
+        left:5px;
+    }
     .dynamicData1{
         display: flex;
         align-items: center;
@@ -336,6 +348,10 @@
     
 }
 @media screen and (min-width:481px) and (max-width:768px) {
+    .back{
+        position: fixed;
+        left:5px;
+    }
     .dynamicData1{
         display: flex;
         align-items: center;

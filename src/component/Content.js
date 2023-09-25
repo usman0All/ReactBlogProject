@@ -61,7 +61,7 @@ function Content() {
        </div>
        
       </div>
-      <button className='back'><Link to="/" style={{textDecoration:"none" ,color:"white"}}>Goback</Link></button>
+      <button className='back'><Link to="/" style={{textDecoration:"none"}}>Goback</Link></button>
       {/* like share section */}
       {/* middle section */}
       <div className='middle-sec'>     
