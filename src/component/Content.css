@@ -99,7 +99,7 @@
     border-color: aliceblue;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 5px;
+    padding: 5px;      
 }
 .parentD2{
     /* border: 4px solid green; */
@@ -443,7 +443,7 @@ color:white;
         width:100%;
         display: flex;
         flex-direction:row;
-        align-items: center;
+        /* align-items: center; */
         justify-content:space-between;
     }
     .Dimgbox2{
@@ -454,7 +454,7 @@ color:white;
         width:100%;
         height:100%;
         border-radius: 10%;
-        padding:2px;
+        /* padding:2px; */
         /* border: 5px solid black; */
     } 
     .parentD2{
@@ -479,5 +479,132 @@ color:white;
         padding: 4px;
     }   
 }
+/*  tablet view*/
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .back{
+        display:block;
+    }
+    .dynamicData1{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding:0.5em;
+        /* width:100%; */
+    } 
+    .parentD1{
+        /* border: 4px solid green; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+        width:100%;
+        padding: 2px;
+    }
+    .Dimgbox{
+        width:100%;
+        height:20%;
+        /* border:3px solid red; */
+        margin-top: 0.5rem;
+    } 
+    .Dimg{
+        margin: 1%;
+        width:97%;
+         height:100%;
+         border-radius:5%;
+       /* border: 5px solid black; */
+       
+    } 
+    .Ddesc1{
+        text-align: center;
+        width:70%;
+        height:30%;
+        padding-top:2px;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    .Dhe
+    .user{
+        /* border:1px solid black; */
+        /* width:600px; */
+        height:50px;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+       
+    }
+    
+    .userImg{
+    
+        /* background-color:gre bordy; */
+        margin-right: 0.5rem;
+        width:55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+    .userP{
+        flex-direction: column;
+    }
+    .user{
+        /* width:600px; */
+        height:50px;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+       
+    }
+   .middle-child{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           padding: 3%;
+           width:100%;
+           margin-bottom: 10px;
+       }
+
+       .middle-child{
+        background-color: whitesmoke;
+       }
+    .dynamicData2{
+        width:100%;
+        display: flex;
+        flex-direction:row;
+        /* align-items: center; */
+        justify-content:space-between;
+    }
+    .Dimgbox2{
+        width:100%;
+        height:20%;
+    } 
+    .Dimg2{
+        width:100%;
+        height:100%;
+        border-radius: 10%;
+        /* padding:2px; */
+        /* border: 5px solid black; */
+    } 
+    .parentD2{
+        width: 100%;
+        margin-bottom: 2%;
+    }  
+    .Dhea2{
+        text-align: center;
+        width:100%;
+        padding-top:10px;
+        /* border:2px solid black; */
+    }
+    .user2{
+        /* border:1px solid black; */
+        width:200px;
+        height:50px;
+    
+        display: flex;
+        align-items:center;
+        justify-content:flex-start;
+        margin-top: 2px;
+        padding: 4px;
+    }   
+}
+
 
     

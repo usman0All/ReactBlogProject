@@ -99,7 +99,7 @@
    /* border:4px solid  blue;  */
    background-color: whitesmoke;
   width:320px;
-  /* height:250px; */
+  height:220px;
   position: relative;
   padding:2%;
   border-bottom: 1px solid rgb(201, 195, 195);border-radius: 2%;
@@ -113,7 +113,7 @@
 } 
 .cont-img2{
   width:100%;
-  height:180px;
+  height:150px;
   /* border: 3px solid black;  */
    
 }
@@ -277,7 +277,7 @@ position:absolute;
   justify-content: center;
   padding:3%;
 }
-.HomeLatest{
+.HomeLatest{    
   /* border:4px solid red; */
 }
 .latestH{
@@ -342,7 +342,6 @@ position:absolute;
 @media screen and (max-width:480px){
   .main-container{
     flex-direction: column;
-    width:100%; 
 
   }
   .parent1{
@@ -591,16 +590,15 @@ position:absolute;
 
 @media screen and (min-width:481px) and (max-width:768px){
     .main-container{
-      display: flex;
       flex-direction: column;
-      align-items:center;
       /* justify-content:space-around; */
-      flex-wrap: wrap; 
-      overflow: hidden;
       /* margin-top: 10px; */
       /* border :4px solid red;  */
     }
     .parent1{
+      width: 100%;
+      margin:0.5em;
+      overflow: hidden;
 
     }
     .container1{
@@ -656,7 +654,9 @@ position:absolute;
   
     /* parent2 */
     .parent2{
-      width:100%
+      width:100%;
+      margin:0.5em;
+      overflow: hidden;
    }
     .container2{
        /* border:4px solid  pink; */
@@ -832,22 +832,18 @@ position:absolute;
 /* laptop */
   @media screen and (min-width:769px) and (max-width:1024px){
     .main-container{
-      display: flex;
       flex-direction: column;
-      align-items:center;
-      /* justify-content:space-around; */
-      flex-wrap: wrap; 
-      /* margin-top: 10px; */
-      /* border :4px solid red;  */
     }
     .parent1{
       width:100%;
+      margin:0.5em;
+      overflow: hidden;
       
     }
     .container1{
       /* background-color:pink;  */
       width:100%;
-      padding:1em;
+      /* padding:1em; */
       /* height:230px; */
       /* position: relative; */
       margin-bottom: 10px;
@@ -897,15 +893,15 @@ position:absolute;
   
     /* parent2 */
     .parent2{
-      width:100%
+      width: 100%;
+      margin:0.5em;
+      overflow: hidden;
    }
     .container2{
-       border:4px solid  pink;
+       /* border:4px solid  pink; */
       width:100%;
-      height:400px;
-      padding:1em;
+      height:300px;
       position: relative;
-      margin-bottom: 5px;
     }
     /* child container 2*/
      #heading2{
@@ -956,9 +952,9 @@ position:absolute;
     }
     /* child container 3*/
     .cont-img3{
-      width:50%;
-      height:30%;
-      /* border: 3px solid black; */
+      width:30%;
+      height:20%;
+      border: 3px solid black; 
     }
      .leftimg3{
       width:100%;
@@ -1067,25 +1063,21 @@ position:absolute;
   
   }
 
-  /*Dask Top  */
+  /* DeskTop view */
   @media screen and (min-width:1025px) and (max-width:1350px){
     .main-container{
-      display: flex;
       flex-direction: column;
-      align-items:center;
-      /* justify-content:space-around; */
-      flex-wrap: wrap; 
-      /* margin-top: 10px; */
-      /* border :4px solid red;  */
     }
     .parent1{
       width:100%;
+      margin:0.5em;
+      overflow: hidden;
       
     }
     .container1{
       /* background-color:pink;  */
       width:100%;
-      padding:1em;
+      /* padding:1em; */
       /* height:230px; */
       /* position: relative; */
       margin-bottom: 10px;
@@ -1135,15 +1127,15 @@ position:absolute;
   
     /* parent2 */
     .parent2{
-      width:100%
+      width: 100%;
+      margin:0.5em;
+      overflow: hidden;
    }
     .container2{
-       border:4px solid  pink;
+       /* border:4px solid  pink; */
       width:100%;
-      height:400px;
-      padding:1em;
+      height:450px;
       position: relative;
-      margin-bottom: 5px;
     }
     /* child container 2*/
      #heading2{
@@ -1194,9 +1186,9 @@ position:absolute;
     }
     /* child container 3*/
     .cont-img3{
-      width:50%;
-      height:30%;
-      /* border: 3px solid black; */
+      width:30%;
+      height:20%;
+      border: 3px solid black; 
     }
      .leftimg3{
       width:100%;
@@ -1232,8 +1224,79 @@ position:absolute;
       left: 40%;
       bottom:30px;
     }
+     /* home  */
+     .frontimg{
+      border: 5px solid black;  
+      width:100%;;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .HomeImg{
+      display: flex;
+      flex-direction: column;
+      width:100%;
+      /* border: 3px solid green; */
+      align-items: center;
+      justify-content: center;
+    }
+    .img1{
+      width:100%;
+      height:400px;
+      /* margin-right: 10px; */
+      border-radius: 3px;
+    }
+    .img2cont{
+      width:100%;
+  
+    }
+   
+    .img2{
+      width:100%;
+      height:196px;;
+      margin-bottom:5px;
+      border-radius: 3px;
+    } 
+    .img3{
+      width:100%;
+      height:196px;
+      border-radius:3px;
+    }
+
+
+
+    /* latesrt */
+    .latestP{
+      flex-direction: column;
+      padding-top: 2%;
+     
+    }
+    .latestP1{
+      /* border: 5px solid blue; */
+     width:100%;
+     margin-top: 2%;
+    
+   }
+   .latestimg{
+     width:100%;
+     height:50%;
+   }
+
+
+  /* latest article */
+  .lArticle{
+    /* border: 3px solid black;  */
+    display: flex;
+    justify-content:space-around;
+    margin-top:10%;
+    flex-direction: column;
+ 
+ 
+ }
+
   
   }
+ 
 
 
   
