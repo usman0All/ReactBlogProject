@@ -16,13 +16,13 @@ function Fitnes() {
         <div className='parent1'>
           <h1>Fitness</h1>
           <hr className='hr1' />
-          {DData.filter((item) => item.id>=40&&item.id<=48).map((data,index) => {
+          {DData.filter((item) => item.id>=40&&item.id<47).map((data,index) => {
             return (
               <>
               <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
                 <div className='container1' key={index}>
 
-                  <div className='heading1'>{data.heading.slice(0, 50)}</div>
+                  <div className='heading1'>{data.heading.slice(0, 30)}</div>
                   <div className='cont-img1'>
                     <img className="imgData" src={data.image} alt='Not found' />
                   </div>

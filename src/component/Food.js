@@ -56,7 +56,7 @@ function Food() {
                     <div className='cont-img2'>
                       <img className="leftImg" src={data.image} alt='Not found' />
                     </div>
-                    <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading}<div className='number1'>{index+1}</div></div>
+                    <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading.slice(0,20)}<div className='number1'>{index+1}</div></div>
                     {/* <div className='des2'>{data.description.slice(0, 3)}</div> */}
                   </div>
                   </NavLink>

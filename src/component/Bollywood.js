@@ -17,13 +17,13 @@ function Bollywood() {
         <div className='parent1'>
           <h1 className='main-head'>Bollywood</h1>
           <hr className='hr1' />
-           {DData.filter((item) => item.id >= 1 && item.id <= 10).map((data, index) => {
+           {DData.filter((item) => item.id >= 1 && item.id <= 7).map((data, index) => {
             return (
               <>
                 <div key={index} className='container1'>
                   {/* making dynamic link*/}
                   <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">
-                  <div className='heading1'>{data.heading.slice(0, 50)}</div>
+                  <div className='heading1'>{data.heading.slice(0, 45)}</div>
                     <div className='cont-img1'>
                       <img className="imgData" src={data.image} alt='Not found' />
                     </div>
@@ -59,7 +59,7 @@ function Bollywood() {
                         <img className="leftImg" src={data.image} alt='Not found' />
                       </div>
                       <div className='heading2' style={{ fontWeight: "bold" }}>{data.heading.slice(0, 30)}</div><div className='number1'>{index + 1}</div>
-                      <div className='des2'>{data.description.slice(0, 3)}</div>
+                      {/* <div className='des2'>{data.description.slice(0, 3)}</div> */}
                     </div>
                   </NavLink>
                 </>
