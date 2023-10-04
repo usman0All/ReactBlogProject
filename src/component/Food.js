@@ -48,7 +48,7 @@ function Food() {
 
           {/* big image */}
           <div className='topleft'>
-            {DData.filter((item) => item.id ===66).map((data,index) => {
+            {DData.filter((item) => item.id ===65).map((data,index) => {
               return (
                 <>
                 <NavLink to={`/Dcontent/${data.id}`} className="Dynamiclink">

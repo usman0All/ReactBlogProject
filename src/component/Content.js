@@ -55,13 +55,7 @@ function Content() {
       </div>
 
       {/* like share section */}
-      <div className='lsParent'>
-      <div className='likeshare'>
-                    <div><img src={like} className="icon" alt='Not found' />Like</div>
-                    <div><img src={share} className="icon" alt='Not found' />Share this article</div>
-       </div>
-       
-      </div>
+      
       
       {/* like share section */}
       {/* middle section */}
@@ -69,11 +63,22 @@ function Content() {
         <div className='middle-child'>
           <div className='border-child'>
             <div className='user2'>
-              <div className='userImg'><img src={image} className='userImg' alt='Not found' /></div>
-              <div><span>Mohd.Usman</span><br /><span> jan,12/2023</span></div>
+              <div className='userImg'><img src={image} className='userImg' alt='Not found' /> <div><span>Mohd.Usman</span><br /><span> jan,12/2023</span></div></div>
               <button className='back'><Link to="/" style={{textDecoration:"none"}}>Goback</Link></button>
-            </div>
+              <div className='lsParent'>
+              <div className='likeshare'>
+                    <div><img src={like} className="icon" alt='Not found' /></div>
+                    <div><img src={share} className="icon" alt='Not found' /></div>
+              </div>
+              </div>
+
+
           </div>
+          
+       
+           </div>
+
+          
         </div>
       </div>       
       {/* section2 */}

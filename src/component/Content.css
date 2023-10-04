@@ -133,26 +133,26 @@
 .user2{
     /* border:1px solid black; */
     position: relative;
-    width:200px;
+    width:300px;
     height:50px;
 
     display: flex;
     align-items:center;
-    justify-content:flex-start;                   
+    justify-content:space-around;          
     margin-top: 2px;
     padding: 4px;
 }
 /* middle */
 .middle-child{
- /* background-color: rebeccapurple; */
+  /* background-color: rebeccapurple;  */
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 }
 .border-child{
-    /* background-color: black; */
     width:500px;
+    height:120px;
     border-bottom: 3px whitesmoke solid;
     border-top: 3px solid whitesmoke;
     padding:10px;
@@ -160,14 +160,15 @@
 }
 /* likesharew section */
 .lsParent{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 1px solid red;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
     /* border:4px solid rgb(20, 14, 25); */
-    position:fixed;
+    /* position:fixed;
     top:25%;
     left:35px;
-    z-index: +2;
+    z-index: +2; */
 }
 .likeshare:hover{
     border: 1px solid grey;
@@ -200,9 +201,9 @@ color:white;
 }
 
 @media screen and (max-width:480px) {
-    .back{
+    /* .back{
         display: none;
-    }
+    } */
     .dynamicData1{
         display: flex;
         align-items: center;
@@ -334,14 +335,14 @@ color:white;
         /* border:2px solid black; */
     }
     .user2{
-        /* border:1px solid black; */
+         /* border:1px solid black;  */
         width:200px;
         height:50px;
     
         display: flex;
-        align-items:center;
-        justify-content:flex-start;
-        margin-top: 2px;
+        /* align-items:center;
+        justify-content:flex-start; */
+        margin-top: 2px;margin-left: 20%;
         padding: 4px;
     }
     .dynamicData2{
@@ -468,15 +469,22 @@ color:white;
         /* border:2px solid black; */
     }
     .user2{
-        /* border:1px solid black; */
+
+
         width:200px;
         height:50px;
     
         display: flex;
-        align-items:center;
-        justify-content:flex-start;
-        margin-top: 2px;
+        /* align-items:center;
+        justify-content:flex-start; */
+        margin-top: 2px;margin-left: 20%;
         padding: 4px;
+        /* border:1px solid black; */
+
+
+
+
+
     }   
 }
 /*  tablet view*/
@@ -595,13 +603,14 @@ color:white;
     }
     .user2{
         /* border:1px solid black; */
+
         width:200px;
         height:50px;
     
         display: flex;
-        align-items:center;
-        justify-content:flex-start;
-        margin-top: 2px;
+        /* align-items:center;
+        justify-content:flex-start; */
+        margin-top: 2px;margin-left: 20%;
         padding: 4px;
     }   
 }
